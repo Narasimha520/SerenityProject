@@ -38,5 +38,8 @@ public class MakemytripStep extends ScenarioSteps {
 		
 	}
 
-	
-}
+	@Step
+	public void search_results(){	
+		myTripPage.page_results.click();
+	}
+	}
